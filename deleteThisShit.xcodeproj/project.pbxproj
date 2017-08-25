@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DED106FE1F509B8700F72020 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED106FD1F509B8700F72020 /* AppDelegate.swift */; };
+		DED107001F509B8700F72020 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED106FF1F509B8700F72020 /* ViewController.swift */; };
+		DED107031F509B8700F72020 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED107011F509B8700F72020 /* Main.storyboard */; };
+		DED107051F509B8700F72020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DED107041F509B8700F72020 /* Assets.xcassets */; };
+		DED107081F509B8700F72020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED107061F509B8700F72020 /* LaunchScreen.storyboard */; };
+		DED107131F509B8700F72020 /* deleteThisShitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED107121F509B8700F72020 /* deleteThisShitTests.swift */; };
+		DED1071E1F509B8700F72020 /* deleteThisShitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED1071D1F509B8700F72020 /* deleteThisShitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DED1070F1F509B8700F72020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DED106F21F509B8700F72020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DED106F91F509B8700F72020;
+			remoteInfo = deleteThisShit;
+		};
+		DED1071A1F509B8700F72020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DED106F21F509B8700F72020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DED106F91F509B8700F72020;
+			remoteInfo = deleteThisShit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DED106FA1F509B8700F72020 /* deleteThisShit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deleteThisShit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED106FD1F509B8700F72020 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DED106FF1F509B8700F72020 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DED107021F509B8700F72020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DED107041F509B8700F72020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DED107071F509B8700F72020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DED107091F509B8700F72020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DED1070E1F509B8700F72020 /* deleteThisShitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deleteThisShitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED107121F509B8700F72020 /* deleteThisShitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deleteThisShitTests.swift; sourceTree = "<group>"; };
+		DED107141F509B8700F72020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DED107191F509B8700F72020 /* deleteThisShitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deleteThisShitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED1071D1F509B8700F72020 /* deleteThisShitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deleteThisShitUITests.swift; sourceTree = "<group>"; };
+		DED1071F1F509B8700F72020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DED106F71F509B8700F72020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED1070B1F509B8700F72020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED107161F509B8700F72020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DED106F11F509B8700F72020 = {
+			isa = PBXGroup;
+			children = (
+				DED106FC1F509B8700F72020 /* deleteThisShit */,
+				DED107111F509B8700F72020 /* deleteThisShitTests */,
+				DED1071C1F509B8700F72020 /* deleteThisShitUITests */,
+				DED106FB1F509B8700F72020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DED106FB1F509B8700F72020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DED106FA1F509B8700F72020 /* deleteThisShit.app */,
+				DED1070E1F509B8700F72020 /* deleteThisShitTests.xctest */,
+				DED107191F509B8700F72020 /* deleteThisShitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DED106FC1F509B8700F72020 /* deleteThisShit */ = {
+			isa = PBXGroup;
+			children = (
+				DED106FD1F509B8700F72020 /* AppDelegate.swift */,
+				DED106FF1F509B8700F72020 /* ViewController.swift */,
+				DED107011F509B8700F72020 /* Main.storyboard */,
+				DED107041F509B8700F72020 /* Assets.xcassets */,
+				DED107061F509B8700F72020 /* LaunchScreen.storyboard */,
+				DED107091F509B8700F72020 /* Info.plist */,
+			);
+			path = deleteThisShit;
+			sourceTree = "<group>";
+		};
+		DED107111F509B8700F72020 /* deleteThisShitTests */ = {
+			isa = PBXGroup;
+			children = (
+				DED107121F509B8700F72020 /* deleteThisShitTests.swift */,
+				DED107141F509B8700F72020 /* Info.plist */,
+			);
+			path = deleteThisShitTests;
+			sourceTree = "<group>";
+		};
+		DED1071C1F509B8700F72020 /* deleteThisShitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DED1071D1F509B8700F72020 /* deleteThisShitUITests.swift */,
+				DED1071F1F509B8700F72020 /* Info.plist */,
+			);
+			path = deleteThisShitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DED106F91F509B8700F72020 /* deleteThisShit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED107221F509B8700F72020 /* Build configuration list for PBXNativeTarget "deleteThisShit" */;
+			buildPhases = (
+				DED106F61F509B8700F72020 /* Sources */,
+				DED106F71F509B8700F72020 /* Frameworks */,
+				DED106F81F509B8700F72020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = deleteThisShit;
+			productName = deleteThisShit;
+			productReference = DED106FA1F509B8700F72020 /* deleteThisShit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DED1070D1F509B8700F72020 /* deleteThisShitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED107251F509B8700F72020 /* Build configuration list for PBXNativeTarget "deleteThisShitTests" */;
+			buildPhases = (
+				DED1070A1F509B8700F72020 /* Sources */,
+				DED1070B1F509B8700F72020 /* Frameworks */,
+				DED1070C1F509B8700F72020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DED107101F509B8700F72020 /* PBXTargetDependency */,
+			);
+			name = deleteThisShitTests;
+			productName = deleteThisShitTests;
+			productReference = DED1070E1F509B8700F72020 /* deleteThisShitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DED107181F509B8700F72020 /* deleteThisShitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED107281F509B8700F72020 /* Build configuration list for PBXNativeTarget "deleteThisShitUITests" */;
+			buildPhases = (
+				DED107151F509B8700F72020 /* Sources */,
+				DED107161F509B8700F72020 /* Frameworks */,
+				DED107171F509B8700F72020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DED1071B1F509B8700F72020 /* PBXTargetDependency */,
+			);
+			name = deleteThisShitUITests;
+			productName = deleteThisShitUITests;
+			productReference = DED107191F509B8700F72020 /* deleteThisShitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DED106F21F509B8700F72020 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = webarch;
+				TargetAttributes = {
+					DED106F91F509B8700F72020 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QH78WYZE35;
+						ProvisioningStyle = Automatic;
+					};
+					DED1070D1F509B8700F72020 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QH78WYZE35;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DED106F91F509B8700F72020;
+					};
+					DED107181F509B8700F72020 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QH78WYZE35;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DED106F91F509B8700F72020;
+					};
+				};
+			};
+			buildConfigurationList = DED106F51F509B8700F72020 /* Build configuration list for PBXProject "deleteThisShit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DED106F11F509B8700F72020;
+			productRefGroup = DED106FB1F509B8700F72020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DED106F91F509B8700F72020 /* deleteThisShit */,
+				DED1070D1F509B8700F72020 /* deleteThisShitTests */,
+				DED107181F509B8700F72020 /* deleteThisShitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DED106F81F509B8700F72020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED107081F509B8700F72020 /* LaunchScreen.storyboard in Resources */,
+				DED107051F509B8700F72020 /* Assets.xcassets in Resources */,
+				DED107031F509B8700F72020 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED1070C1F509B8700F72020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED107171F509B8700F72020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DED106F61F509B8700F72020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED107001F509B8700F72020 /* ViewController.swift in Sources */,
+				DED106FE1F509B8700F72020 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED1070A1F509B8700F72020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED107131F509B8700F72020 /* deleteThisShitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED107151F509B8700F72020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED1071E1F509B8700F72020 /* deleteThisShitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DED107101F509B8700F72020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DED106F91F509B8700F72020 /* deleteThisShit */;
+			targetProxy = DED1070F1F509B8700F72020 /* PBXContainerItemProxy */;
+		};
+		DED1071B1F509B8700F72020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DED106F91F509B8700F72020 /* deleteThisShit */;
+			targetProxy = DED1071A1F509B8700F72020 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DED107011F509B8700F72020 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DED107021F509B8700F72020 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DED107061F509B8700F72020 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DED107071F509B8700F72020 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DED107201F509B8700F72020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DED107211F509B8700F72020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DED107231F509B8700F72020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QH78WYZE35;
+				INFOPLIST_FILE = deleteThisShit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = webarch.deleteThisShit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DED107241F509B8700F72020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QH78WYZE35;
+				INFOPLIST_FILE = deleteThisShit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = webarch.deleteThisShit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DED107261F509B8700F72020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QH78WYZE35;
+				INFOPLIST_FILE = deleteThisShitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = webarch.deleteThisShitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/deleteThisShit.app/deleteThisShit";
+			};
+			name = Debug;
+		};
+		DED107271F509B8700F72020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QH78WYZE35;
+				INFOPLIST_FILE = deleteThisShitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = webarch.deleteThisShitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/deleteThisShit.app/deleteThisShit";
+			};
+			name = Release;
+		};
+		DED107291F509B8700F72020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QH78WYZE35;
+				INFOPLIST_FILE = deleteThisShitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = webarch.deleteThisShitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = deleteThisShit;
+			};
+			name = Debug;
+		};
+		DED1072A1F509B8700F72020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = QH78WYZE35;
+				INFOPLIST_FILE = deleteThisShitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = webarch.deleteThisShitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = deleteThisShit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DED106F51F509B8700F72020 /* Build configuration list for PBXProject "deleteThisShit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED107201F509B8700F72020 /* Debug */,
+				DED107211F509B8700F72020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DED107221F509B8700F72020 /* Build configuration list for PBXNativeTarget "deleteThisShit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED107231F509B8700F72020 /* Debug */,
+				DED107241F509B8700F72020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DED107251F509B8700F72020 /* Build configuration list for PBXNativeTarget "deleteThisShitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED107261F509B8700F72020 /* Debug */,
+				DED107271F509B8700F72020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DED107281F509B8700F72020 /* Build configuration list for PBXNativeTarget "deleteThisShitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED107291F509B8700F72020 /* Debug */,
+				DED1072A1F509B8700F72020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DED106F21F509B8700F72020 /* Project object */;
+}
