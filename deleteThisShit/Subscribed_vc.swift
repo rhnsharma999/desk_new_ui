@@ -33,6 +33,7 @@ class Subscribed_vc: UIViewController {
         view.delegate = self;
         view.dataSource = self;
         view.backgroundColor = self.bgColor
+        view.separatorStyle = .none
         return view;
     }()
 
@@ -42,7 +43,7 @@ class Subscribed_vc: UIViewController {
        // view.backgroundColor = UIColor(red: 28/255, green: 33/255, blue: 41/255, alpha: 1.0)
         
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white]
-        myTableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        myTableView.register(CustomCell.self, forCellReuseIdentifier: "cell")
        
         setupView()
     }
@@ -58,13 +59,13 @@ extension Subscribed_vc:UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 50
     }
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 70
+    }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
-        cell?.textLabel?.text = "This is row no \(indexPath.row + 1)"
-        cell?.backgroundColor = UIColor(red: 54/255, green: 62/255, blue: 77/255, alpha: 1.0)
-        cell?.textLabel?.textColor = .white
+        cell?.backgroundColor = bgColor
         return cell!
-        
     }
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let y = scrollView.contentOffset.y
@@ -80,24 +81,24 @@ extension Subscribed_vc:UITableViewDelegate,UITableViewDataSource {
         else{
             navigationItem.title = ""
         }
-        
     }
-    
+}
+extension Subscribed_vc{
     func setupView(){
         view.addSubview(myTableView)
         
         headerView.addSubview(headerLabel)
-
+        
         NSLayoutConstraint.activate([
             headerLabel.leftAnchor.constraint(equalTo: headerView.leftAnchor,constant:10),
             headerLabel.rightAnchor.constraint(equalTo: headerView.rightAnchor),
             headerLabel.bottomAnchor.constraint(equalTo: headerView.bottomAnchor,constant:-10),
-         //   headerLabel.topAnchor.constraint(equalTo: headerView.topAnchor)
+            //   headerLabel.topAnchor.constraint(equalTo: headerView.topAnchor)
             ])
         headerLabel.sizeToFit()
         
         
-         myTableView.tableHeaderView = headerView
+        myTableView.tableHeaderView = headerView
         
         
         
