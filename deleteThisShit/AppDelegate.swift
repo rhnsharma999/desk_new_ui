@@ -20,6 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = TabBarController()
         UINavigationBar.appearance().barTintColor = UIColor(red: 28/255, green: 33/255, blue: 41/255, alpha: 1.0)
         UINavigationBar.appearance().isTranslucent = false
+        UINavigationBar.appearance().shadowImage = UIImage()
+        UINavigationBar.appearance().setBackgroundImage(UIImage(),for:.default)
         UIApplication.shared.statusBarStyle = .lightContent
         return true
     }

@@ -62,7 +62,7 @@ extension Subscribed_vc:UITableViewDelegate,UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
         cell?.textLabel?.text = "This is row no \(indexPath.row + 1)"
         cell?.backgroundColor = UIColor(red: 54/255, green: 62/255, blue: 77/255, alpha: 1.0)
-        cell?.textLabel?.textColor = .lightGray
+        cell?.textLabel?.textColor = .white
         return cell!
         
     }
